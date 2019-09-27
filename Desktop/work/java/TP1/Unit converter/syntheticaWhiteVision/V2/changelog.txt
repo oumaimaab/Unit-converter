@@ -1,0 +1,64 @@
+09/29/2016 2.9.6
+- Added new style for disabled/focused button for proper foreground color.
+
+------------------------------------------------------------------------------- 
+
+04/04/2014 V2.9.5
+- Modified menuBar background color for proper support of opaque menu bars.
+
+------------------------------------------------------------------------------- 
+
+10/12/2011 V2.9.4
+- Added UI-property "ToolTip.background" support.
+
+------------------------------------------------------------------------------- 
+
+07/05/2011 V2.9.3
+- Changed ScrollBar.minimumThumbSize type to lowercase - dimension.   
+
+------------------------------------------------------------------------------- 
+
+01/17/2011 V2.9.2
+- Increased window resize border to improve usability  
+- Increased table header and table cell insets  
+
+------------------------------------------------------------------------------- 
+
+01/01/2010 V2.9.1
+- Updated copyright and license because of company rebrand.
+- Optimized button size for option panes.
+
+-------------------------------------------------------------------------------
+
+10/07/2009 V2.9.0
+- Added support to handle multiple XML files
+- Removed SyntheticaAddons configuration from synth.xml 
+- Improved Separator compatibility 
+
+-------------------------------------------------------------------------------
+
+06/16/2008 V1.3.0
+- Renamed flexdock UI-property keys
+- Added additional icons to improve support for third party docking solutions 
+
+-------------------------------------------------------------------------------
+
+05/25/2008 V1.2.0
+- Modified tool bar handle reference
+- Removed unnecessary object wrappers
+- Added button definitions for ButtonBar
+- ArrowUp image size modified from 18x18 to 16x16 pixels
+- Modified tooltip text color for disabled components
+
+-------------------------------------------------------------------------------
+
+11/27/2007 V1.1.0
+- Added vertical/horizontal toolBar handle.
+- Reduced top insets between titlepane and menu for two pixels.
+- Optimized height for spinner and combobox (equal to textfields).
+- Spinner button style stays even if buttons will grow.
+
+-------------------------------------------------------------------------------
+
+08/31/2007 V1.0.0
+- First official release of the WhiteVision LAF.
