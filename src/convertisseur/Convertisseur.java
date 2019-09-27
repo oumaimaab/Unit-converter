@@ -135,7 +135,7 @@ public class Convertisseur extends JFrame implements ItemListener,KeyListener{
 	}
 	/*This method if for converting*/
 	public double UnitConverter() {
-		double value = Double.parseDouble(originalValue.getText());
+		double value = (originalValue!=null && originalValue.getText() !=null && !originalValue.getText().equals("")) ? Double.parseDouble(originalValue.getText()) : 0;
 		double result = 0;
 		String selectedFrom = (String) fromUnit.getSelectedItem();
 		String selectedTo = (String) toUnit.getSelectedItem();
